@@ -6,3 +6,291 @@
 
 ===============Finish Logging================
 
+
+===============Init Logging================
+
+02/03/2015 - 10:08:04 	===== Ouverture de session =====
+02/03/2015 - 10:40:31 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+02/03/2015 - 10:41:26 	===== Ouverture de session =====
+02/03/2015 - 10:54:00 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+02/03/2015 - 10:55:03 	===== Ouverture de session =====
+02/03/2015 - 11:00:09 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+02/03/2015 - 11:00:28 	===== Ouverture de session =====
+02/03/2015 - 11:06:26 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+02/03/2015 - 11:06:37 	===== Ouverture de session =====
+02/03/2015 - 11:08:05 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+02/03/2015 - 11:08:15 	===== Ouverture de session =====
+02/03/2015 - 11:20:10 	Début du calcul
+02/03/2015 - 11:20:10 	Nombre de positions : 1
+02/03/2015 - 11:20:10 	Simulation inactivée
+02/03/2015 - 11:20:10 	Lecture des conditions initiales
+02/03/2015 - 11:20:13 	Analyse du système incorrecte
+02/03/2015 - 11:20:13 	Abandon du calcul
+02/03/2015 - 11:20:16 	Début du calcul
+02/03/2015 - 11:20:16 	Nombre de positions : 1
+02/03/2015 - 11:20:16 	Simulation inactivée
+02/03/2015 - 11:20:16 	Lecture des conditions initiales
+02/03/2015 - 11:20:16 	Fin du calcul
+02/03/2015 - 11:20:19 	Début du calcul
+02/03/2015 - 11:20:19 	Nombre de positions : 1
+02/03/2015 - 11:20:19 	Simulation inactivée
+02/03/2015 - 11:20:19 	Lecture des conditions initiales
+02/03/2015 - 11:20:21 	Analyse du système incorrecte
+02/03/2015 - 11:20:21 	Abandon du calcul
+02/03/2015 - 11:25:40 	Début du calcul
+02/03/2015 - 11:25:40 	Nombre de positions : 1
+02/03/2015 - 11:25:40 	Simulation inactivée
+02/03/2015 - 11:25:40 	Lecture des conditions initiales
+02/03/2015 - 11:25:42 	Analyse du système incorrecte
+02/03/2015 - 11:25:42 	Abandon du calcul
+02/03/2015 - 11:25:46 	Début du calcul
+02/03/2015 - 11:25:46 	Nombre de positions : 1
+02/03/2015 - 11:25:46 	Simulation inactivée
+02/03/2015 - 11:25:46 	Lecture des conditions initiales
+02/03/2015 - 11:25:47 	Analyse du système incorrecte
+02/03/2015 - 11:25:47 	Abandon du calcul
+02/03/2015 - 11:25:56 	Début du calcul
+02/03/2015 - 11:25:56 	Nombre de positions : 1
+02/03/2015 - 11:25:56 	Simulation inactivée
+02/03/2015 - 11:25:56 	Lecture des conditions initiales
+02/03/2015 - 11:25:57 	Analyse du système incorrecte
+02/03/2015 - 11:25:57 	Abandon du calcul
+02/03/2015 - 11:26:02 	Début du calcul
+02/03/2015 - 11:26:02 	Nombre de positions : 1
+02/03/2015 - 11:26:02 	Simulation inactivée
+02/03/2015 - 11:26:02 	Lecture des conditions initiales
+02/03/2015 - 11:26:03 	Analyse du système incorrecte
+02/03/2015 - 11:26:03 	Abandon du calcul
+02/03/2015 - 11:26:09 	Début du calcul
+02/03/2015 - 11:26:09 	Nombre de positions : 1
+02/03/2015 - 11:26:09 	Simulation inactivée
+02/03/2015 - 11:26:09 	Lecture des conditions initiales
+02/03/2015 - 11:26:10 	Analyse du système incorrecte
+02/03/2015 - 11:26:10 	Abandon du calcul
+02/03/2015 - 11:26:13 	Début du calcul
+02/03/2015 - 11:26:13 	Nombre de positions : 1
+02/03/2015 - 11:26:13 	Simulation inactivée
+02/03/2015 - 11:26:13 	Lecture des conditions initiales
+02/03/2015 - 11:26:14 	Analyse du système incorrecte
+02/03/2015 - 11:26:14 	Abandon du calcul
+02/03/2015 - 11:26:19 	Début du calcul
+02/03/2015 - 11:26:19 	Nombre de positions : 1
+02/03/2015 - 11:26:19 	Simulation inactivée
+02/03/2015 - 11:26:19 	Lecture des conditions initiales
+02/03/2015 - 11:26:21 	Analyse du système incorrecte
+02/03/2015 - 11:26:21 	Abandon du calcul
+02/03/2015 - 11:27:15 	Début du calcul
+02/03/2015 - 11:27:15 	Nombre de positions : 1
+02/03/2015 - 11:27:15 	Simulation inactivée
+02/03/2015 - 11:27:15 	Lecture des conditions initiales
+02/03/2015 - 11:27:15 	Fin du calcul
+02/03/2015 - 11:27:16 	Début du calcul
+02/03/2015 - 11:27:16 	Nombre de positions : 1
+02/03/2015 - 11:27:16 	Simulation inactivée
+02/03/2015 - 11:27:16 	Lecture des conditions initiales
+02/03/2015 - 11:27:16 	Fin du calcul
+02/03/2015 - 11:27:43 	Début du calcul
+02/03/2015 - 11:27:43 	Nombre de positions : 200
+02/03/2015 - 11:27:43 	Simulation inactivée
+02/03/2015 - 11:27:43 	Lecture des conditions initiales
+02/03/2015 - 11:27:43 	Fin du calcul
+02/03/2015 - 11:28:36 	Début du calcul
+02/03/2015 - 11:28:36 	Nombre de positions : 200
+02/03/2015 - 11:28:36 	Simulation inactivée
+02/03/2015 - 11:28:36 	Lecture des conditions initiales
+02/03/2015 - 11:28:36 	Fin du calcul
+02/03/2015 - 11:29:55 	Début du calcul
+02/03/2015 - 11:29:55 	Nombre de positions : 200
+02/03/2015 - 11:29:55 	Simulation inactivée
+02/03/2015 - 11:29:55 	Lecture des conditions initiales
+02/03/2015 - 11:29:56 	Analyse du système incorrecte
+02/03/2015 - 11:29:56 	Abandon du calcul
+02/03/2015 - 11:30:02 	Début du calcul
+02/03/2015 - 11:30:02 	Nombre de positions : 200
+02/03/2015 - 11:30:02 	Simulation inactivée
+02/03/2015 - 11:30:02 	Lecture des conditions initiales
+02/03/2015 - 11:30:04 	Analyse du système incorrecte
+02/03/2015 - 11:30:04 	Abandon du calcul
+02/03/2015 - 11:30:41 	Début du calcul
+02/03/2015 - 11:30:41 	Nombre de positions : 200
+02/03/2015 - 11:30:41 	Simulation inactivée
+02/03/2015 - 11:30:41 	Lecture des conditions initiales
+02/03/2015 - 11:30:42 	Analyse du système incorrecte
+02/03/2015 - 11:30:42 	Abandon du calcul
+02/03/2015 - 11:31:14 	Début du calcul
+02/03/2015 - 11:31:14 	Nombre de positions : 200
+02/03/2015 - 11:31:14 	Simulation inactivée
+02/03/2015 - 11:31:14 	Lecture des conditions initiales
+02/03/2015 - 11:31:15 	Analyse du système incorrecte
+02/03/2015 - 11:31:15 	Abandon du calcul
+02/03/2015 - 11:31:18 	Début du calcul
+02/03/2015 - 11:31:18 	Nombre de positions : 200
+02/03/2015 - 11:31:18 	Simulation inactivée
+02/03/2015 - 11:31:18 	Lecture des conditions initiales
+02/03/2015 - 11:31:22 	Analyse du système incorrecte
+02/03/2015 - 11:31:22 	Abandon du calcul
+02/03/2015 - 11:31:27 	Début du calcul
+02/03/2015 - 11:31:27 	Nombre de positions : 200
+02/03/2015 - 11:31:27 	Simulation inactivée
+02/03/2015 - 11:31:27 	Lecture des conditions initiales
+02/03/2015 - 11:31:28 	Analyse du système incorrecte
+02/03/2015 - 11:31:28 	Abandon du calcul
+02/03/2015 - 11:32:29 	Début du calcul
+02/03/2015 - 11:32:29 	Nombre de positions : 200
+02/03/2015 - 11:32:29 	Simulation inactivée
+02/03/2015 - 11:32:29 	Lecture des conditions initiales
+02/03/2015 - 11:32:36 	Analyse du système incorrecte
+02/03/2015 - 11:32:36 	Abandon du calcul
+02/03/2015 - 11:32:43 	Début du calcul
+02/03/2015 - 11:32:43 	Nombre de positions : 200
+02/03/2015 - 11:32:43 	Simulation inactivée
+02/03/2015 - 11:32:43 	Lecture des conditions initiales
+02/03/2015 - 11:32:44 	Analyse du système incorrecte
+02/03/2015 - 11:32:44 	Abandon du calcul
+02/03/2015 - 11:33:40 	Début du calcul
+02/03/2015 - 11:33:40 	Nombre de positions : 200
+02/03/2015 - 11:33:40 	Simulation inactivée
+02/03/2015 - 11:33:40 	Lecture des conditions initiales
+02/03/2015 - 11:33:41 	Analyse du système incorrecte
+02/03/2015 - 11:33:41 	Abandon du calcul
+02/03/2015 - 11:33:58 	Début du calcul
+02/03/2015 - 11:33:58 	Nombre de positions : 200
+02/03/2015 - 11:33:58 	Simulation inactivée
+02/03/2015 - 11:33:58 	Lecture des conditions initiales
+02/03/2015 - 11:33:59 	Analyse du système incorrecte
+02/03/2015 - 11:33:59 	Abandon du calcul
+02/03/2015 - 11:34:14 	Début du calcul
+02/03/2015 - 11:34:14 	Nombre de positions : 200
+02/03/2015 - 11:34:14 	Simulation inactivée
+02/03/2015 - 11:34:14 	Lecture des conditions initiales
+02/03/2015 - 11:34:15 	Analyse du système incorrecte
+02/03/2015 - 11:34:15 	Abandon du calcul
+02/03/2015 - 11:34:22 	Début du calcul
+02/03/2015 - 11:34:22 	Nombre de positions : 200
+02/03/2015 - 11:34:22 	Simulation inactivée
+02/03/2015 - 11:34:22 	Lecture des conditions initiales
+02/03/2015 - 11:34:23 	Analyse du système incorrecte
+02/03/2015 - 11:34:23 	Abandon du calcul
+02/03/2015 - 11:34:34 	Début du calcul
+02/03/2015 - 11:34:34 	Nombre de positions : 200
+02/03/2015 - 11:34:34 	Simulation inactivée
+02/03/2015 - 11:34:34 	Lecture des conditions initiales
+02/03/2015 - 11:34:35 	Analyse du système incorrecte
+02/03/2015 - 11:34:35 	Abandon du calcul
+02/03/2015 - 11:35:05 	Début du calcul
+02/03/2015 - 11:35:05 	Nombre de positions : 200
+02/03/2015 - 11:35:05 	Simulation inactivée
+02/03/2015 - 11:35:05 	Lecture des conditions initiales
+02/03/2015 - 11:35:06 	Analyse du système incorrecte
+02/03/2015 - 11:35:06 	Abandon du calcul
+02/03/2015 - 11:36:14 	Début du calcul
+02/03/2015 - 11:36:14 	Nombre de positions : 200
+02/03/2015 - 11:36:14 	Simulation inactivée
+02/03/2015 - 11:36:14 	Lecture des conditions initiales
+02/03/2015 - 11:36:14 	Fin du calcul
+02/03/2015 - 11:37:44 	Début du calcul
+02/03/2015 - 11:37:44 	Nombre de positions : 200
+02/03/2015 - 11:37:44 	Simulation inactivée
+02/03/2015 - 11:37:44 	Lecture des conditions initiales
+02/03/2015 - 11:37:48 	Analyse du système incorrecte
+02/03/2015 - 11:37:48 	Abandon du calcul
+02/03/2015 - 11:38:10 	Début du calcul
+02/03/2015 - 11:38:10 	Nombre de positions : 200
+02/03/2015 - 11:38:10 	Simulation inactivée
+02/03/2015 - 11:38:10 	Lecture des conditions initiales
+02/03/2015 - 11:38:12 	Analyse du système incorrecte
+02/03/2015 - 11:38:12 	Abandon du calcul
+02/03/2015 - 11:38:29 	Début du calcul
+02/03/2015 - 11:38:29 	Nombre de positions : 200
+02/03/2015 - 11:38:29 	Simulation inactivée
+02/03/2015 - 11:38:29 	Lecture des conditions initiales
+02/03/2015 - 11:38:30 	Analyse du système incorrecte
+02/03/2015 - 11:38:30 	Abandon du calcul
+02/03/2015 - 11:38:35 	Début du calcul
+02/03/2015 - 11:38:35 	Nombre de positions : 200
+02/03/2015 - 11:38:35 	Simulation inactivée
+02/03/2015 - 11:38:35 	Lecture des conditions initiales
+02/03/2015 - 11:38:37 	Analyse du système incorrecte
+02/03/2015 - 11:38:37 	Abandon du calcul
+02/03/2015 - 11:39:23 	Début du calcul
+02/03/2015 - 11:39:23 	Nombre de positions : 200
+02/03/2015 - 11:39:23 	Simulation inactivée
+02/03/2015 - 11:39:23 	Lecture des conditions initiales
+02/03/2015 - 11:39:24 	Analyse du système incorrecte
+02/03/2015 - 11:39:24 	Abandon du calcul
+02/03/2015 - 11:39:34 	Début du calcul
+02/03/2015 - 11:39:34 	Nombre de positions : 200
+02/03/2015 - 11:39:34 	Simulation inactivée
+02/03/2015 - 11:39:34 	Lecture des conditions initiales
+02/03/2015 - 11:39:35 	Analyse du système incorrecte
+02/03/2015 - 11:39:35 	Abandon du calcul
+02/03/2015 - 11:39:50 	Début du calcul
+02/03/2015 - 11:39:50 	Nombre de positions : 200
+02/03/2015 - 11:39:50 	Simulation inactivée
+02/03/2015 - 11:39:50 	Lecture des conditions initiales
+02/03/2015 - 11:40:00 	Analyse du système incorrecte
+02/03/2015 - 11:40:00 	Abandon du calcul
+02/03/2015 - 11:40:04 	Début du calcul
+02/03/2015 - 11:40:04 	Nombre de positions : 200
+02/03/2015 - 11:40:04 	Simulation inactivée
+02/03/2015 - 11:40:04 	Lecture des conditions initiales
+02/03/2015 - 11:40:05 	Analyse du système incorrecte
+02/03/2015 - 11:40:05 	Abandon du calcul
+02/03/2015 - 11:40:10 	Début du calcul
+02/03/2015 - 11:40:10 	Nombre de positions : 200
+02/03/2015 - 11:40:10 	Simulation inactivée
+02/03/2015 - 11:40:10 	Lecture des conditions initiales
+02/03/2015 - 11:40:11 	Analyse du système incorrecte
+02/03/2015 - 11:40:11 	Abandon du calcul
+02/03/2015 - 11:41:24 	Début du calcul
+02/03/2015 - 11:41:24 	Nombre de positions : 200
+02/03/2015 - 11:41:24 	Simulation inactivée
+02/03/2015 - 11:41:24 	Lecture des conditions initiales
+02/03/2015 - 11:41:25 	Analyse du système incorrecte
+02/03/2015 - 11:41:25 	Abandon du calcul
+02/03/2015 - 11:43:04 	Début du calcul
+02/03/2015 - 11:43:04 	Nombre de positions : 200
+02/03/2015 - 11:43:04 	Simulation inactivée
+02/03/2015 - 11:43:04 	Lecture des conditions initiales
+02/03/2015 - 11:43:05 	Analyse du système incorrecte
+02/03/2015 - 11:43:05 	Abandon du calcul
+02/03/2015 - 11:43:08 	Début du calcul
+02/03/2015 - 11:43:08 	Nombre de positions : 200
+02/03/2015 - 11:43:08 	Simulation inactivée
+02/03/2015 - 11:43:08 	Lecture des conditions initiales
+02/03/2015 - 11:43:09 	Analyse du système incorrecte
+02/03/2015 - 11:43:09 	Abandon du calcul
+02/03/2015 - 11:49:44 	===== Fermeture de session =====
+
+===============Finish Logging================
+
