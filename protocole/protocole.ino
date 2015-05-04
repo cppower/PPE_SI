@@ -1,6 +1,7 @@
 #include <SoftwareSerial.h>
 bool movedFrom=false;
 int entree[9];
+int electromagnet=2;
 SoftwareSerial portOne(10,11);
 bool termineLateral=false;
 void setup(){
@@ -9,29 +10,24 @@ void setup(){
   pinMode(8, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(5,OUTPUT);
+  pinMode(electromagnet, OUTPUT);
+ 
 }
 
 void loop()
 {
  
-  /*portOne.listen();
-  if (portOne.available() > 0&&portOne.read()==1) {
-     for(int i=0;i<4;i++){
-     entree[i]=Serial.read();
-     }
-    int curCol=(int)entree[1];
-    int destCol=(int)entree[3];
-    */
-    int curCol=2;
-    int destCol=3;
+  
+    int curCol=3;
+    int destCol=2;
     
-  actionMoteur(HIGH, curCol);
+  /*actionMoteur(HIGH, curCol);
   analogWrite(9,0);
   while(!termineLateral&&portOne.available() > 0&&portOne.read()!=1)
  {
    delay(1);
- }
-actionAimant(1);
+ }*/
+actionAimant(true);
 //Revenir en butée
 actionMoteur(LOW, curCol);
  analogWrite(9,0);
@@ -50,10 +46,13 @@ void actionMoteur(bool b, int deplacement){
   digitalWrite(8,b);
   digitalWrite(11,!b);
   analogWrite(9,255);
- delay(7500*deplacement);
+ delay(10000*deplacement);
 
 }
 void actionAimant(bool b){
-  digitalWrite(5, b);
+  if(b)
+  digitalWrite(electromagnet, HIGH);
+  else
+  digitalWrite(electromagnet, LOW);  
 }
 //}
