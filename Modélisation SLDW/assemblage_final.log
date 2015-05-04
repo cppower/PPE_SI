@@ -294,3 +294,323 @@
 
 ===============Finish Logging================
 
+
+===============Init Logging================
+
+02/03/2015 - 11:52:32 	===== Ouverture de session =====
+02/03/2015 - 11:54:55 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+09/03/2015 - 11:24:33 	===== Ouverture de session =====
+09/03/2015 - 11:25:15 	Début du calcul
+09/03/2015 - 11:25:15 	Nombre de positions : 200
+09/03/2015 - 11:25:15 	Simulation inactivée
+09/03/2015 - 11:25:15 	Lecture des conditions initiales
+09/03/2015 - 11:25:16 	Analyse du système incorrecte
+09/03/2015 - 11:25:16 	Abandon du calcul
+09/03/2015 - 11:26:42 	Début du calcul
+09/03/2015 - 11:26:42 	Nombre de positions : 200
+09/03/2015 - 11:26:42 	Simulation inactivée
+09/03/2015 - 11:26:42 	Lecture des conditions initiales
+09/03/2015 - 11:26:43 	Fin du calcul
+09/03/2015 - 11:31:04 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+09/03/2015 - 11:31:17 	===== Ouverture de session =====
+09/03/2015 - 11:35:29 	Début du calcul
+09/03/2015 - 11:35:29 	Nombre de positions : 200
+09/03/2015 - 11:35:29 	Simulation inactivée
+09/03/2015 - 11:35:29 	Lecture des conditions initiales
+09/03/2015 - 11:35:31 	Analyse du système incorrecte
+09/03/2015 - 11:35:31 	Abandon du calcul
+09/03/2015 - 11:35:33 	Début du calcul
+09/03/2015 - 11:35:33 	Nombre de positions : 200
+09/03/2015 - 11:35:33 	Simulation inactivée
+09/03/2015 - 11:35:33 	Lecture des conditions initiales
+09/03/2015 - 11:35:33 	Fin du calcul
+09/03/2015 - 11:36:52 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+09/03/2015 - 11:37:02 	===== Ouverture de session =====
+09/03/2015 - 11:37:11 	Début du calcul
+09/03/2015 - 11:37:11 	Nombre de positions : 200
+09/03/2015 - 11:37:11 	Simulation inactivée
+09/03/2015 - 11:37:11 	Lecture des conditions initiales
+09/03/2015 - 11:37:12 	Fin du calcul
+09/03/2015 - 11:37:33 	Début du calcul
+09/03/2015 - 11:37:33 	Nombre de positions : 500
+09/03/2015 - 11:37:33 	Simulation inactivée
+09/03/2015 - 11:37:33 	Lecture des conditions initiales
+09/03/2015 - 11:37:34 	Fin du calcul
+09/03/2015 - 11:38:10 	Début du calcul
+09/03/2015 - 11:38:10 	Nombre de positions : 500
+09/03/2015 - 11:38:10 	Simulation inactivée
+09/03/2015 - 11:38:10 	Lecture des conditions initiales
+09/03/2015 - 11:38:10 	Fin du calcul
+09/03/2015 - 11:50:14 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+23/03/2015 - 10:04:37 	===== Ouverture de session =====
+23/03/2015 - 10:04:58 	Début du calcul
+23/03/2015 - 10:04:58 	Nombre de positions : 500
+23/03/2015 - 10:04:58 	Simulation inactivée
+23/03/2015 - 10:04:58 	Lecture des conditions initiales
+23/03/2015 - 10:04:59 	Fin du calcul
+23/03/2015 - 10:08:45 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+23/03/2015 - 10:08:59 	===== Ouverture de session =====
+23/03/2015 - 10:15:46 	Début du calcul
+23/03/2015 - 10:15:46 	Nombre de positions : 500
+23/03/2015 - 10:15:46 	Simulation inactivée
+23/03/2015 - 10:15:46 	Lecture des conditions initiales
+23/03/2015 - 10:15:47 	Fin du calcul
+23/03/2015 - 11:02:58 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+23/03/2015 - 11:03:24 	===== Ouverture de session =====
+23/03/2015 - 11:04:01 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+23/03/2015 - 11:04:15 	===== Ouverture de session =====
+23/03/2015 - 11:04:55 	Début du calcul
+23/03/2015 - 11:04:55 	Nombre de positions : 500
+23/03/2015 - 11:04:55 	Simulation inactivée
+23/03/2015 - 11:04:55 	Lecture des conditions initiales
+23/03/2015 - 11:04:55 	Fin du calcul
+23/03/2015 - 11:12:18 	Début du calcul
+23/03/2015 - 11:12:18 	Nombre de positions : 500
+23/03/2015 - 11:12:18 	Simulation inactivée
+23/03/2015 - 11:12:18 	Lecture des conditions initiales
+23/03/2015 - 11:12:19 	Fin du calcul
+23/03/2015 - 11:16:57 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+23/03/2015 - 11:17:10 	===== Ouverture de session =====
+23/03/2015 - 11:29:30 	Début du calcul
+23/03/2015 - 11:29:30 	Nombre de positions : 500
+23/03/2015 - 11:29:30 	Simulation inactivée
+23/03/2015 - 11:29:30 	Lecture des conditions initiales
+23/03/2015 - 11:29:43 	Fin du calcul
+23/03/2015 - 11:30:28 	Début du calcul
+23/03/2015 - 11:30:28 	Nombre de positions : 500
+23/03/2015 - 11:30:28 	Simulation inactivée
+23/03/2015 - 11:30:28 	Lecture des conditions initiales
+23/03/2015 - 11:30:31 	Fin du calcul
+23/03/2015 - 11:31:32 	Début du calcul
+23/03/2015 - 11:31:32 	Nombre de positions : 500
+23/03/2015 - 11:31:32 	Simulation inactivée
+23/03/2015 - 11:31:32 	Lecture des conditions initiales
+23/03/2015 - 11:31:33 	Fin du calcul
+23/03/2015 - 11:31:36 	Début du calcul
+23/03/2015 - 11:31:36 	Nombre de positions : 500
+23/03/2015 - 11:31:36 	Simulation inactivée
+23/03/2015 - 11:31:36 	Lecture des conditions initiales
+23/03/2015 - 11:31:36 	Fin du calcul
+23/03/2015 - 11:31:38 	Début du calcul
+23/03/2015 - 11:31:38 	Nombre de positions : 500
+23/03/2015 - 11:31:38 	Simulation inactivée
+23/03/2015 - 11:31:38 	Lecture des conditions initiales
+23/03/2015 - 11:31:40 	Fin du calcul
+23/03/2015 - 11:32:08 	Début du calcul
+23/03/2015 - 11:32:08 	Nombre de positions : 500
+23/03/2015 - 11:32:08 	Simulation inactivée
+23/03/2015 - 11:32:08 	Lecture des conditions initiales
+23/03/2015 - 11:32:17 	Fin du calcul
+23/03/2015 - 11:32:29 	Début du calcul
+23/03/2015 - 11:32:29 	Nombre de positions : 500
+23/03/2015 - 11:32:29 	Simulation inactivée
+23/03/2015 - 11:32:29 	Lecture des conditions initiales
+23/03/2015 - 11:32:31 	Fin du calcul
+23/03/2015 - 11:33:34 	Début du calcul
+23/03/2015 - 11:33:34 	Nombre de positions : 500
+23/03/2015 - 11:33:34 	Simulation inactivée
+23/03/2015 - 11:33:34 	Lecture des conditions initiales
+23/03/2015 - 11:33:36 	Fin du calcul
+23/03/2015 - 11:36:19 	Début du calcul
+23/03/2015 - 11:36:19 	Nombre de positions : 500
+23/03/2015 - 11:36:19 	Simulation inactivée
+23/03/2015 - 11:36:19 	Lecture des conditions initiales
+23/03/2015 - 11:36:26 	Fin du calcul
+23/03/2015 - 11:36:47 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+23/03/2015 - 11:36:59 	===== Ouverture de session =====
+23/03/2015 - 11:37:08 	Début du calcul
+23/03/2015 - 11:37:08 	Nombre de positions : 500
+23/03/2015 - 11:37:08 	Simulation inactivée
+23/03/2015 - 11:37:08 	Lecture des conditions initiales
+23/03/2015 - 11:37:09 	Fin du calcul
+23/03/2015 - 11:37:58 	Début du calcul
+23/03/2015 - 11:37:58 	Nombre de positions : 500
+23/03/2015 - 11:37:58 	Simulation inactivée
+23/03/2015 - 11:37:58 	Lecture des conditions initiales
+23/03/2015 - 11:37:59 	Fin du calcul
+23/03/2015 - 11:38:16 	Début du calcul
+23/03/2015 - 11:38:16 	Nombre de positions : 500
+23/03/2015 - 11:38:16 	Simulation inactivée
+23/03/2015 - 11:38:16 	Lecture des conditions initiales
+23/03/2015 - 11:38:16 	Fin du calcul
+23/03/2015 - 11:40:09 	Début du calcul
+23/03/2015 - 11:40:09 	Nombre de positions : 500
+23/03/2015 - 11:40:09 	Simulation inactivée
+23/03/2015 - 11:40:09 	Lecture des conditions initiales
+23/03/2015 - 11:40:10 	Fin du calcul
+23/03/2015 - 11:42:00 	Début du calcul
+23/03/2015 - 11:42:00 	Nombre de positions : 500
+23/03/2015 - 11:42:00 	Simulation inactivée
+23/03/2015 - 11:42:00 	Lecture des conditions initiales
+23/03/2015 - 11:42:01 	Fin du calcul
+23/03/2015 - 11:43:11 	Début du calcul
+23/03/2015 - 11:43:11 	Nombre de positions : 500
+23/03/2015 - 11:43:11 	Simulation inactivée
+23/03/2015 - 11:43:11 	Lecture des conditions initiales
+23/03/2015 - 11:43:11 	Fin du calcul
+23/03/2015 - 11:45:33 	Début du calcul
+23/03/2015 - 11:45:33 	Nombre de positions : 500
+23/03/2015 - 11:45:33 	Simulation inactivée
+23/03/2015 - 11:45:33 	Lecture des conditions initiales
+23/03/2015 - 11:45:34 	Fin du calcul
+23/03/2015 - 11:51:46 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+30/03/2015 - 11:56:05 	===== Ouverture de session =====
+30/03/2015 - 11:56:34 	Début du calcul
+30/03/2015 - 11:56:34 	Nombre de positions : 500
+30/03/2015 - 11:56:34 	Simulation inactivée
+30/03/2015 - 11:56:34 	Lecture des conditions initiales
+30/03/2015 - 11:56:34 	Fin du calcul
+30/03/2015 - 12:02:38 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+03/04/2015 - 17:03:53 	===== Ouverture de session =====
+03/04/2015 - 17:06:51 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+03/04/2015 - 17:07:03 	===== Ouverture de session =====
+03/04/2015 - 17:07:53 	Début du calcul
+03/04/2015 - 17:07:53 	Nombre de positions : 500
+03/04/2015 - 17:07:53 	Simulation inactivée
+03/04/2015 - 17:07:53 	Lecture des conditions initiales
+03/04/2015 - 17:07:54 	Fin du calcul
+03/04/2015 - 17:26:21 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+03/04/2015 - 17:26:46 	===== Ouverture de session =====
+03/04/2015 - 17:38:22 	Début du calcul
+03/04/2015 - 17:38:22 	Nombre de positions : 500
+03/04/2015 - 17:38:22 	Simulation inactivée
+03/04/2015 - 17:38:22 	Lecture des conditions initiales
+03/04/2015 - 17:38:23 	Fin du calcul
+03/04/2015 - 18:00:05 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+03/04/2015 - 18:01:59 	===== Ouverture de session =====
+03/04/2015 - 18:04:58 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+03/04/2015 - 18:09:34 	===== Ouverture de session =====
+03/04/2015 - 18:11:20 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+03/04/2015 - 18:19:07 	===== Ouverture de session =====
+03/04/2015 - 18:20:33 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+10/04/2015 - 15:46:38 	===== Ouverture de session =====
+10/04/2015 - 15:49:10 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+10/04/2015 - 15:50:09 	===== Ouverture de session =====
+10/04/2015 - 15:50:51 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+13/04/2015 - 10:47:36 	===== Ouverture de session =====
+13/04/2015 - 11:55:09 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+04/05/2015 - 10:18:34 	===== Ouverture de session =====
+04/05/2015 - 10:18:44 	===== Fermeture de session =====
+
+===============Finish Logging================
+
