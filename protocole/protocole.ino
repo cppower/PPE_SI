@@ -9,6 +9,8 @@ void setup(){
   portOne.begin(9600);
   pinMode(8, OUTPUT);
   pinMode(11, OUTPUT);
+  pinMode(13,OUTPUT);
+  pinMode(12,OUTPUT);
   pinMode(5,OUTPUT);
   pinMode(electromagnet, OUTPUT);
  
@@ -27,27 +29,45 @@ void loop()
  {
    delay(1);
  }*/
+
+actionMoteurLateral(LOW,curCol);
+  digitalWrite(8,HIGH);
+actionMoteurVertical(HIGH);
+  digitalWrite(12,LOW);
 actionAimant(true);
 //Revenir en butée
-actionMoteur(LOW, curCol);
- analogWrite(9,0);
+actionMoteurVertical(LOW);
+digitalWrite(12,HIGH);
+actionMoteurLateral(HIGH, curCol);
+  digitalWrite(8,LOW);
+analogWrite(9,0);
  //Aller à destination 
-actionMoteur(HIGH, destCol);
+actionMoteurLateral(HIGH, destCol);
+actionMoteurVertical(HIGH);
  analogWrite(9,0);
 actionAimant(0);
- 
+ actionMoteurVertical(LOW);
+
  //Revenir en butee
- actionMoteur(LOW, destCol);
+ actionMoteurLateral(LOW, destCol);
  analogWrite(9,0);
-   delay(20000);
+ 
+//delay(20000);
+
 
  }
-void actionMoteur(bool b, int deplacement){
+void actionMoteurLateral(bool b, int deplacement){
   digitalWrite(8,b);
   digitalWrite(11,!b);
   analogWrite(9,255);
  delay(10000*deplacement);
 
+}
+void actionMoteurVertical(bool b){
+  digitalWrite(12,b);
+  digitalWrite(13,!b);
+  analogWrite(9,255);
+  delay(15000);
 }
 void actionAimant(bool b){
   if(b)
