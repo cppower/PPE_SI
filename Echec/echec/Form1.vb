@@ -1,10 +1,9 @@
-﻿
-'Imports System.IO.Ports
+﻿'Imports System.IO.Ports
 
 
 Public Class Form1
 
-    Dim NORTH As Integer = 100
+    Dim NORTH As Integer = 100              'on définit des raccourcis plus explicites poour coder les directions des mouvements
     Dim NORTH_EAST As Integer = 101
     Dim EAST As Integer = 102
     Dim SOUTH_EAST As Integer = 103
@@ -25,29 +24,34 @@ Public Class Form1
 
 
 
-    Dim action As Boolean = False
-    Dim depart As Integer
-    Dim goodtrip As Boolean
-    Dim echiquier(7, 7) As String
-    Dim currX As Integer = 1
+    Dim action As Boolean = False           'action est un booléen qui informe sur l'état de la sélection: saisis t-on une case de départ ou d'arrivée
+    Dim goodtrip As Boolean                 'goodtrip est un booléen associé à la fonction goodmove qui assure la validité du mouvement
+    Dim echiquier(7, 7) As String           'echiquier est le tableau qui va contenir la disposition du jeu à chaque instant
+    Dim currX As Integer = 1                'currX, currY, arrX et arrY correspondent respectivement aux coordonnées en X et en Y des cases de départ et d'arrivée
     Dim currY As Integer = 1
     Dim Xarr As Integer = 1
     Dim Yarr As Integer = 1
-    Dim butt As Button
+    Dim butt As Button                      'butt est une variable "mémoire" du bouton de départ qui permet en cas de mouvement valide d'effacer la pièce de sa case de départ
 
 
     Sub Delay(ByVal dblSecs As Double)
+        'fonction qui met en pause la fenêtre pour la durée souhaitée dblSecs
 
         Const OneSec As Double = 1.0# / (1440.0# * 60.0#)
         Dim dblWaitTil As Date
         Now.AddSeconds(OneSec)
         dblWaitTil = Now.AddSeconds(OneSec).AddSeconds(dblSecs)
         Do Until Now > dblWaitTil
-            Application.DoEvents() ' Allow windows messages to be processed
+            Application.DoEvents()
         Loop
 
     End Sub
+
+
+
     Function init()
+        'initialise le tableau echiquier à chaque action 
+
         Dim echiquier(7, 7) As String
         echiquier(0, 0) = A1.Text
         echiquier(0, 1) = A2.Text
@@ -115,7 +119,10 @@ Public Class Form1
         echiquier(7, 7) = H8.Text
         Return echiquier
     End Function
+
     Function coordX(ByVal Button As Button, ByVal X As Integer)
+        'donne la coordonnée en X du bouton appuyé par lecture du début du nom de celui-ci
+
         Dim gauche As Char = coupergauche(Button.Name)
         Select Case gauche
             Case "A"
@@ -137,7 +144,10 @@ Public Class Form1
         End Select
         Return X
     End Function
+
     Function coordY(ByVal Button As Button, ByVal Y As Integer)
+        'donne la coordonnée en Y du bouton appuyé par lecture de la fin du nom de celui-ci
+
         Dim droite As Char = couperdroite(Button.Name)
         Select Case droite
             Case "1"
@@ -161,34 +171,51 @@ Public Class Form1
     End Function
 
 
+
     Function from(ByVal Buttfrom As Button, ByVal label As Label)
-        label.Text = Buttfrom.Text
-        currX = coordX(Buttfrom, currX)
+        'actions générales lors de la sélection de la case de départ
+
+        label.Text = Buttfrom.Text              'remplissage du label d'information
+        currX = coordX(Buttfrom, currX)         'expression des coordonnées de la case de départ
         currY = coordY(Buttfrom, currY)
-        butt = Buttfrom
+        butt = Buttfrom                         'création d'une variable "mémoire" de la case de départ
     End Function
 
     Function vers(ByVal Buttto As Button, ByVal label As Label)
-        Xarr = coordX(Buttto, Xarr)
+        'actions générales lors de la sélection de la case d'arrivée
+
+        Xarr = coordX(Buttto, Xarr)             'expression des coordonnées de la case d'arrivée
         Yarr = coordY(Buttto, Yarr)
-        goodtrip = goodmove(Buttto)
+        goodtrip = goodmove(Buttto)             'vérification de la validité du mouvement
         If goodtrip = True Then
-            If Buttto.Text <> "" Then
+            If Buttto.Text <> "" Then           'en cas d'élimination d'une pièce, remplissage d'un label d'information
                 Label3.Text = Label3.Text + vbNewLine + Buttto.Text
+                'SerialPort1.Write(Xarr)
+                'SerialPort1.Write(Yarr)
+                'SerialPort1.Write(8)           'on peut envoyer les informations sur la pièce à éliminer à arduino et attendre le temps que la pièce soit éliminée
+                'SerialPort1.Write(8)
+                'Delay(120)
             End If
-            Buttto.Text = label.Text
-            label.Text = ""
+            Buttto.Text = label.Text            'modification de la pièce sur la case d'arrivée
+            label.Text = ""                     'remise à zéro du label d'information et de la case de départ
             butt.Text = ""
+            'SerialPort1.Write(CurrX)
+            'SerialPort1.Write(CurrY)
+            'SerialPort1.Write(Xarr)            'on peut envoyer les informations sur la pièces à déplacer à arduino et attendre le temps que la pièce soit déplacée
+            'SerialPort1.Write(Yarr)
+            'Delay(120)
         Else
-            label.Text = ""
+            label.Text = ""                     'remise à zéro du label d'information
             Dim color = Buttto.BackColor
-            Buttto.BackColor = color.Red
+            Buttto.BackColor = color.Red        'la case de destinatin indique que le mouvement est invalide en devenant rouge pendant 0,5sec
             Delay(0.5)
             Buttto.BackColor = color
         End If
     End Function
 
     Function direct(ByVal deltaX As Integer, ByVal deltaY As Integer)
+        'Cette fonction détermine la direction suivi par la pièce
+
         If deltaX = 0 And deltaY = 0 Then
             Return NO_MOVE
         ElseIf deltaX = 0 Then
@@ -229,12 +256,14 @@ Public Class Form1
             ElseIf deltaX = -1 And deltaY = -2 Then
                 Return CAVALIER_8
             Else
-                Return NO_MOVE
+                Return NO_MOVE          'tout autre mouvement est considéré comme une absence de mouvement et entraînera une invalidation du mouvement
             End If
         End If
     End Function
 
     Function passagelibre(ByVal Xarr As Integer, ByVal Yarr As Integer, ByVal direction As Integer)
+        'cette fonction passe en revue les cases entre celle de départ et celle d'arrivée et s'assure qu'elles sont vides
+
         If direction = NORTH Then
             For i = Yarr + 1 To currY - 1
                 If echiquier(currX, i) <> "" Then
@@ -292,6 +321,7 @@ Public Class Form1
             Next
             Return True
         ElseIf direction = CAVALIER_1 Or CAVALIER_2 Or CAVALIER_3 Or CAVALIER_4 Or CAVALIER_5 Or CAVALIER_6 Or CAVALIER_7 Or CAVALIER_8 Then
+            'la cavalier saute les pièces. Aucune vérification ne s'impose pour lui
             Return True
         Else
             Return False
@@ -299,18 +329,23 @@ Public Class Form1
     End Function
 
     Function goodmove(ByVal buttto As Button)
-        If echiquier(currX, currY) = "" Or currX < 0 Or currY < 0 Then
+        'cette fonction assure la validité du mouvement
+
+        If echiquier(currX, currY) = "" Or currX < 0 Or currY < 0 Then          'on vérifie que la case de départ n'est pas vide
             Return False
         End If
-        Dim deltaX As Integer = Xarr - currX
+        Dim deltaX As Integer = Xarr - currX                                    'expression des coordonnées du déplacement
         Dim deltaY As Integer = Yarr - currY
-        Dim norme As Integer = (deltaX ^ 2 + deltaY ^ 2) ^ (1 / 2)
+        Dim norme As Integer = (deltaX ^ 2 + deltaY ^ 2) ^ (1 / 2)              'expression de la distance (en case) parcourue
         Dim team As Char = couperdroite(echiquier(currX, currY))
-        If team = "B" Then
-            deltaY = -deltaY
+        If team = "B" Then                                                      'cette partie permet de réduire l'étude au cas des pions noirs le signe
+            deltaY = -deltaY                                                    'des mouvements des pions blancs étant inversé
         End If
-        Dim direction As Integer = direct(deltaX, deltaY)
+        Dim direction As Integer = direct(deltaX, deltaY)                       'expression de la direction du mouvement
         Dim piece As String = echiquier(currX, currY)
+
+        'si la pièce est un pion, que sa destination est vide alors sa direction doit être sud. Dans le cas où le pion est sur sa position de départ 
+        'il peut effectuer un déplacement de deux cases et non d'une unique
         If piece = "pion B" Or piece = "Pion N" Then
             If buttto.Text = "" Then
                 Dim lim As Integer
@@ -322,33 +357,53 @@ Public Class Form1
                 If direction <> SOUTH Or norme > lim Then
                     Return False
                 End If
+
+                'si sa destination est non vide il doit obligatoirement avancer en diagonale d'une distance d'une case
             Else
                 If (direction <> SOUTH_EAST And direction <> SOUTH_WEST) Or norme > 1 Then
                     Return False
                 End If
             End If
+
+            'si la pièce est un fou il doit se déplacer en diagonale (direction sud-est, nord-est, sud-ouest ou nourd-ouest
         ElseIf piece = "fou B" Or piece = "Fou N" Then
             If direction <> NORTH_WEST And direction <> NORTH_EAST And direction <> SOUTH_EAST And direction <> SOUTH_WEST Then
                 Return False
             End If
+
+            'si la pièce est une tour elle doit se déplacer en ligne droite (direction nord, sud, est ou ouest)
         ElseIf piece = "tour B" Or piece = "Tour N" Then
             If direction <> NORTH And direction <> SOUTH And direction <> EAST And direction <> WEST Then
                 Return False
             End If
+
+            'si la pièce est un cavalier il doit suivre les directions particulières du cavalier
         ElseIf piece = "cavalier B" Or piece = "Cavalier N" Then
             If direction <> CAVALIER_1 And direction <> CAVALIER_2 And direction <> CAVALIER_3 And direction <> CAVALIER_4 And direction <> CAVALIER_5 And direction <> CAVALIER_6 And direction <> CAVALIER_7 And direction <> CAVALIER_8 Then
                 Return False
             End If
+
+            'si la pièce est un roi il ne doit pas avoir un déplacement de plus d'une case en ligne droite ou en diagonale
         ElseIf piece = "roi B" Or piece = "Roi N" Then
             If norme > 1 Then
                 Return False
             End If
+
+            'si la pièce est une reine elle doit se déplacer dans une des huit directions de base
         ElseIf piece = "reine B" Or piece = "Reine N" Then
             If direction <> SOUTH And direction <> NORTH And direction <> EAST And direction <> WEST And direction <> SOUTH_EAST And direction <> SOUTH_WEST And direction <> NORTH_EAST And direction <> NORTH_WEST Then
                 Return False
             End If
         End If
+
+        'si la direction et la distance sont en accord avec l'état de la pièce on vérifie alors qu'aucune pièce ne gêne le passage entre la position de départ et celle d'arrivée
         If passagelibre(Xarr, Yarr, direction) Then
+            If buttto.Text <> "" Then                                       'on vérifie que si une pièce se trouve sur la case de destination elle est de l'équipe adeverse
+                Dim team2 As Char = couperdroite(echiquier(Xarr, Yarr))
+                If team = team2 Then
+                    Return False
+                End If
+            End If
             Return True
         Else
             Return False
@@ -357,6 +412,10 @@ Public Class Form1
 
 
 
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'SerialPort1.Open()
+    End Sub
 
     Private Sub A1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles A1.Click
 
