@@ -4,6 +4,7 @@ int entree[9];
 int electromagnet=2;
 SoftwareSerial portOne(10,11);
 bool termineLateral=false;
+bool demarre=false;
 void setup(){
   Serial.begin(9600);
   portOne.begin(9600);
@@ -19,21 +20,15 @@ void setup(){
 void loop()
 {
  
+if ( Serial.available() ) {
+   demarre=true; 
+} 
   
-    int curCol=3;
-    int destCol=2;
-    
-  /*actionMoteur(HIGH, curCol);
-  analogWrite(9,0);
-  while(!termineLateral&&portOne.available() > 0&&portOne.read()!=1)
- {
-   delay(1);
- }*/
-
+if(demarre){
 actionMoteurLateral(LOW,curCol);
-  digitalWrite(8,HIGH);
+digitalWrite(8,HIGH);
 actionMoteurVertical(HIGH);
-  digitalWrite(12,LOW);
+digitalWrite(12,LOW);
 actionAimant(true);
 //Revenir en butée
 actionMoteurVertical(LOW);
@@ -47,14 +42,12 @@ actionMoteurVertical(HIGH);
  analogWrite(9,0);
 actionAimant(0);
  actionMoteurVertical(LOW);
-
- //Revenir en butee
- actionMoteurLateral(LOW, destCol);
+ actionMoteurLateral(HIGH, destCol);
  analogWrite(9,0);
  
-//delay(20000);
+demarre=false;
 
-
+}
  }
 void actionMoteurLateral(bool b, int deplacement){
   digitalWrite(8,b);
